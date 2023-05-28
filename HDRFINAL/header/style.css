@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+* {
+  font-size: 62.5%;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+a {
+  font-style: none; }
+
+body {
+  font-family: 'Lato'; }
+
+.ham {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 1rem 1rem 1rem 1rem;
+  position: fixed;
+  text-align: center;
+  display: none;
+  background-color: #d4d4d4; }
+  .ham:hover {
+    width: 50%;
+    height: 100%;
+    border-radius: 0%; }
+
+.header {
+  width: 100%;
+  height: 18.7rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .header-banner {
+    width: 81%;
+    height: 7.1rem;
+    margin: 5rem auto;
+    border-bottom: solid black 1px; }
+    .header-banner .iitr_logo {
+      margin-top: 1.1rem;
+      width: 32rem;
+      float: left; }
+    .header-banner-secondory {
+      width: 35%;
+      height: 100%;
+      float: right;
+      margin-right: 4rem; }
+      .header-banner-secondory .g20_logo {
+        width: 10rem;
+        margin-top: 0 rem; }
+      .header-banner-secondory .search {
+        margin-top: -5rem;
+        margin-left: 45rem; }
+      .header-banner-secondory-main {
+        width: 68%;
+        float: right;
+        height: 100%; }
+        .header-banner-secondory-main-1 {
+          border-bottom: solid rgba(0, 0, 0, 0.288) 1px;
+          height: 47%; }
+          .header-banner-secondory-main-1 .A {
+            margin: 0.3rem; }
+          .header-banner-secondory-main-1 .dark {
+            margin-left: 10rem;
+            margin-top: -2rem;
+            width: 18%; }
+            .header-banner-secondory-main-1 .dark .lightmode {
+              color: black;
+              width: 22px;
+              height: 22px;
+              border-radius: 2px;
+              font-family: 'Lato', sans-serif;
+              font-size: 1.6rem;
+              line-height: 16px;
+              text-align: center;
+              background-color: white;
+              border: 2px solid #1a76bb;
+              cursor: pointer;
+              float: left; }
+            .header-banner-secondory-main-1 .dark .darkmode {
+              color: white;
+              width: 22px;
+              height: 22px;
+              border-radius: 2px;
+              font-family: 'Lato', sans-serif;
+              font-size: 1.6rem;
+              line-height: 16px;
+              text-align: center;
+              background-color: #1a76bb;
+              border: 2px solid #1a76bb;
+              cursor: pointer;
+              float: right; }
+          .header-banner-secondory-main-1 .lang {
+            font-size: 2.8rem;
+            float: right;
+            margin-top: -2rem; }
+        .header-banner-secondory-main-2 {
+          width: 100%;
+          height: 53%; }
+          .header-banner-secondory-main-2 .p1 {
+            font-size: 1.2rem;
+            font-weight: 200;
+            margin-top: 1rem;
+            float: left; }
+          .header-banner-secondory-main-2 .p1:not(:last-child) {
+            margin-right: 15%; }
+  .header .burger {
+    width: 100%;
+    height: 4rem;
+    margin-top: -3.5rem; }
+    .header .burger .burger-list {
+      margin-left: 2rem; }
+      .header .burger .burger-list li {
+        text-transform: uppercase;
+        list-style: none;
+        font-size: 1.6rem;
+        float: left;
+        padding: 1rem 2rem 1rem 2rem; }
+        .header .burger .burger-list li .sub_menu {
+          display: none;
+          margin-top: 1rem; }
+      .header .burger .burger-list li:hover {
+        background-color: #d9d9d9;
+        font-weight: 700;
+        max-height: 4rem;
+        max-width: 18rem;
+        padding: 1rem; }
+        .header .burger .burger-list li:hover .sub_menu {
+          background-color: #d9d9d9;
+          display: flex;
+          flex-direction: column;
+          min-width: 25rem;
+          margin-left: -1rem;
+          padding-top: 1rem; }
+          .header .burger .burger-list li:hover .sub_menu li {
+            min-width: 25rem; }
+      .header .burger .burger-list li:last-child {
+        max-width: 10rem; }
+
+@media (max-width: 1500px) {
+  .header-banner-secondory-main {
+    display: none; }
+  .g20_logo {
+    float: left; }
+  .search {
+    float: right; }
+  .header-banner-secondory {
+    width: 15rem; } }
+
+@media (max-width: 1300px) {
+  .ham {
+    display: block; }
+    .ham .burger1 {
+      float: left;
+      width: 100%;
+      height: 4rem;
+      display: none;
+      margin-top: -3.5rem; }
+      .ham .burger1 .burger1-list {
+        float: left;
+        margin-left: 0;
+        margin-top: 20rem; }
+        .ham .burger1 .burger1-list li {
+          text-transform: uppercase;
+          list-style: none;
+          font-size: 1.6rem;
+          padding: 1rem 2rem 1rem 2rem; }
+          .ham .burger1 .burger1-list li .sub_menu {
+            display: none;
+            margin-top: 1rem; }
+        .ham .burger1 .burger1-list li:hover {
+          background-color: #d9d9d9;
+          font-weight: 700;
+          max-height: 4rem;
+          max-width: 18rem;
+          padding: 1rem; }
+          .ham .burger1 .burger1-list li:hover .sub_menu {
+            background-color: #d9d9d9;
+            display: flex;
+            flex-direction: column;
+            min-width: 25rem;
+            margin-left: 20rem;
+            padding-top: 1rem; }
+            .ham .burger1 .burger1-list li:hover .sub_menu li {
+              min-width: 25rem; }
+        .ham .burger1 .burger1-list li:last-child {
+          max-width: 10rem; }
+    .ham:hover .burger1 {
+      display: block; }
+  .burger {
+    display: none; } }
+
+@media (max-width: 580px) {
+  .g20_logo {
+    max-width: 50%; }
+  .iitr_logo {
+    max-width: 50%; } }
