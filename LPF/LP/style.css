@@ -1,0 +1,542 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap");
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-9");
+* {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  margin: 0; }
+
+html {
+  font-family: Helvetica; }
+
+.header {
+  width: 100%;
+  height: 100vh; }
+  .header .navbar {
+    width: 100%;
+    height: 5rem;
+    background-color: rgba(1, 175, 87, 0.4); }
+    .header .navbar-logo {
+      margin: 0.8rem 3rem;
+      width: 3.5rem; }
+    .header .navbar_menu {
+      font-size: 1.5rem;
+      float: right;
+      padding: 1.5rem 2rem; }
+    .header .navbar .btn-try {
+      background-color: #01af57;
+      padding: 0.7rem 2rem;
+      margin-top: 0.9rem;
+      margin-right: 6rem;
+      border-radius: 2px; }
+  .header .heading {
+    margin: 20rem  auto;
+    font-size: 7rem;
+    color: rgba(0, 0, 0, 0.609);
+    width: 70rem;
+    height: auto;
+    text-align: center;
+    z-index: 20; }
+    .header .heading-secondory {
+      font-size: 3rem;
+      font-weight: 100; }
+  .header .box {
+    background-color: rgba(1, 175, 88, 0.167);
+    z-index: 10; }
+    .header .box1 {
+      width: 15%;
+      height: 25rem;
+      margin-top: -55.3rem; }
+    .header .box2 {
+      width: 13%;
+      height: 25rem;
+      margin-top: -25rem;
+      position: absolute;
+      right: 0%; }
+    .header .box3 {
+      width: 13%;
+      height: 25rem;
+      margin-top: 9rem;
+      position: absolute;
+      left: 5rem; }
+    .header .box4 {
+      width: 9%;
+      aspect-ratio: 1/1;
+      position: absolute;
+      top: 40rem;
+      left: 50rem; }
+    .header .box5 {
+      width: 9%;
+      aspect-ratio: 1/1;
+      position: absolute;
+      top: 37rem;
+      left: 115rem; }
+    .header .box6 {
+      width: 9%;
+      aspect-ratio: 1/1;
+      position: absolute;
+      top: 15rem;
+      left: 90rem; }
+
+.section-safety {
+  position: relative;
+  height: 100vh;
+  width: 100%; }
+  .section-safety-contant {
+    position: absolute;
+    top: 12rem;
+    margin: 0 18rem;
+    display: flex;
+    flex-direction: row;
+    width: 80%; }
+    .section-safety-contant .big_box {
+      height: 40rem;
+      width: 50rem;
+      position: relative;
+      top: 5rem;
+      background-color: rgba(1, 175, 88, 0.167);
+      border-radius: 8px; }
+    .section-safety-contant .sefety_guaranteed_box {
+      height: 40rem;
+      width: 50rem;
+      margin-left: 15rem;
+      position: relative;
+      top: 5rem;
+      display: flex;
+      flex-direction: column;
+      border-radius: 8px; }
+      .section-safety-contant .sefety_guaranteed_box .sefety_guaranteed {
+        width: 100%;
+        height: 20rem;
+        background-color: #01af57;
+        border-radius: 5px; }
+        .section-safety-contant .sefety_guaranteed_box .sefety_guaranteed .p1 {
+          display: none;
+          font-size: 2rem;
+          margin: 2rem 1rem; }
+        .section-safety-contant .sefety_guaranteed_box .sefety_guaranteed:not(:last-child) {
+          margin-bottom: 2rem; }
+        .section-safety-contant .sefety_guaranteed_box .sefety_guaranteed .safety-heading {
+          font-size: 2rem;
+          margin-top: 2rem;
+          margin-left: 2rem;
+          font-family: Source Sans Pro;
+          text-transform: lowercase;
+          font-weight: 700; }
+        .section-safety-contant .sefety_guaranteed_box .sefety_guaranteed:hover {
+          width: 100%;
+          height: 60rem;
+          background-color: rgba(17, 17, 17, 0.889);
+          border-radius: 5px;
+          color: aliceblue; }
+          .section-safety-contant .sefety_guaranteed_box .sefety_guaranteed:hover .p1 {
+            display: block; }
+
+.section-testimoney {
+  width: 100%;
+  height: 100vh; }
+  .section-testimoney .testimoney {
+    height: 100%; }
+    .section-testimoney .testimoney_side {
+      height: 100%;
+      width: 20%;
+      float: left;
+      background-color: #01af57; }
+      .section-testimoney .testimoney_side .heading-testimoney {
+        font-size: 7rem;
+        rotate: -90deg;
+        margin-top: 36rem;
+        color: white; }
+    .section-testimoney .testimoney_main {
+      height: 100%;
+      width: 80%;
+      float: right; }
+      .section-testimoney .testimoney_main-heading {
+        margin-left: 32rem;
+        margin-top: 5rem; }
+        .section-testimoney .testimoney_main-heading-1 {
+          color: rgba(0, 0, 0, 0.664);
+          font-size: 5rem; }
+        .section-testimoney .testimoney_main-heading-2 {
+          color: rgba(0, 0, 0, 0.609);
+          font-size: 2.5rem;
+          font-weight: 100;
+          margin-left: 3rem; }
+      .section-testimoney .testimoney_main-grid {
+        width: 70%;
+        height: 45rem;
+        margin: 5rem auto;
+        display: grid;
+        grid-template-columns: auto auto; }
+        .section-testimoney .testimoney_main-grid .block {
+          height: 20rem;
+          background-color: #1F2420E5;
+          margin: 2.1rem;
+          border-radius: 10px; }
+          .section-testimoney .testimoney_main-grid .block .circle {
+            width: 6rem;
+            height: 6rem;
+            border-radius: 50%;
+            background-color: #1F2420;
+            margin: 3rem 1.5rem;
+            float: left; }
+          .section-testimoney .testimoney_main-grid .block .para {
+            font-family: Source Sans Pro;
+            font-weight: 400;
+            float: left;
+            color: aliceblue;
+            font-size: 2.5rem;
+            width: 70%;
+            margin-top: 3rem;
+            margin-left: 0.5rem; }
+          .section-testimoney .testimoney_main-grid .block .namer {
+            font-family: Source Sans Pro;
+            font-weight: 400;
+            font-size: 2.5rem;
+            float: left;
+            margin-left: 0.5rem;
+            margin-top: 2rem;
+            color: #01AF57; }
+            .section-testimoney .testimoney_main-grid .block .namer-h2 {
+              color: aliceblue;
+              font-weight: 200; }
+
+.section-faq {
+  width: 100%;
+  height: 130vh;
+  position: relative; }
+  .section-faq .faq-contant {
+    width: 80%;
+    height: 65vh;
+    left: 10%;
+    position: absolute;
+    top: 13.5rem; }
+    .section-faq .faq-contant-headings {
+      height: 100%;
+      width: 45%;
+      float: left;
+      margin-top: 15rem; }
+      .section-faq .faq-contant-headings .faq-h1 {
+        font-family: Source Sans Pro;
+        font-weight: 700;
+        font-size: 7rem; }
+      .section-faq .faq-contant-headings .faq-h2 {
+        font-family: Source Sans Pro;
+        font-weight: 700;
+        font-size: 2rem; }
+    .section-faq .faq-contant-grid {
+      width: 45%;
+      height: 100%;
+      float: right; }
+      .section-faq .faq-contant-grid .grid-box {
+        background-color: #01AF57;
+        width: 100%;
+        height: 10rem;
+        font-size: 5rem;
+        position: relative;
+        border-radius: 10px;
+        font-family: Source Sans Pro; }
+        .section-faq .faq-contant-grid .grid-box:not(:last-child) {
+          margin-bottom: 2.1rem; }
+        .section-faq .faq-contant-grid .grid-box .safety-heading {
+          position: absolute;
+          top: 3rem;
+          left: 2rem; }
+        .section-faq .faq-contant-grid .grid-box .gola {
+          width: 4rem;
+          height: 4rem;
+          border-radius: 50%;
+          float: right;
+          background-color: #10C067;
+          margin-top: 3rem;
+          margin-right: 3rem; }
+          .section-faq .faq-contant-grid .grid-box .gola .p2 {
+            font-size: 4rem;
+            margin-top: -1rem;
+            margin-left: 0.77rem;
+            font-weight: 500; }
+
+.footer {
+  background-color: #1F2420;
+  width: 100%;
+  height: 50vh;
+  float: left; }
+  .footer .contacts {
+    width: 33.33%;
+    height: 100%;
+    float: left; }
+    .footer .contacts-item {
+      width: 80%;
+      height: 60%;
+      color: aliceblue;
+      margin: 7rem auto; }
+      .footer .contacts-item--1 {
+        width: 100%;
+        height: 33.33%;
+        position: relative; }
+        .footer .contacts-item--1 .address-gola {
+          width: 4rem;
+          height: 4rem;
+          border-radius: 50%;
+          position: absolute;
+          top: 1.5rem;
+          background-color: #344137;
+          background-size: 2vmax; }
+          .footer .contacts-item--1 .address-gola-img {
+            margin: 0.5rem 0 0 1rem; }
+        .footer .contacts-item--1 .address .add-para {
+          font-size: 2rem;
+          float: right;
+          margin-left: 5rem;
+          margin-top: 1rem; }
+      .footer .contacts-item--2 {
+        width: 100%;
+        height: 33.33%;
+        position: relative; }
+        .footer .contacts-item--2 .call-gola {
+          width: 4rem;
+          height: 4rem;
+          border-radius: 50%;
+          position: absolute;
+          top: 1.5rem;
+          background-color: #344137;
+          background-image: url(images/call.png);
+          background-size: 2vmax; }
+          .footer .contacts-item--2 .call-gola-img {
+            margin: 0.7rem 0 0 0.9rem; }
+        .footer .contacts-item--2 .call .call-para {
+          font-size: 2rem;
+          float: left;
+          margin-left: 5rem;
+          margin-top: 2rem; }
+      .footer .contacts-item--3 {
+        width: 100%;
+        height: 33.33%;
+        position: relative; }
+        .footer .contacts-item--3 .mail-gola {
+          width: 4rem;
+          height: 4rem;
+          border-radius: 50%;
+          position: absolute;
+          top: 1.5rem;
+          background-color: #344137;
+          background-image: url(images/call.png);
+          background-size: 2vmax; }
+          .footer .contacts-item--3 .mail-gola-img {
+            margin: 0.8rem 0 0 0.5rem; }
+        .footer .contacts-item--3 .mail .mail-para {
+          font-size: 2rem;
+          float: left;
+          margin-left: 5rem;
+          margin-top: 2rem; }
+  .footer .social-media {
+    width: 33.33%;
+    height: 100%;
+    float: left; }
+    .footer .social-media--main {
+      width: 100%;
+      height: 9rem;
+      position: relative; }
+      .footer .social-media--main .logo {
+        width: 5rem;
+        height: 5rem;
+        background-image: url(/images/logo.png);
+        background-size: cover;
+        position: absolute;
+        top: 2rem;
+        left: 20rem; }
+      .footer .social-media--main .name {
+        position: absolute;
+        top: 3rem;
+        left: 28rem; }
+        .footer .social-media--main .name-h1 {
+          font-size: 3rem;
+          color: aliceblue; }
+    .footer .social-media--sub {
+      width: 70%;
+      height: 9rem;
+      margin-left: 15rem;
+      position: relative; }
+      .footer .social-media--sub .soma {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        background-color: #344137;
+        float: left;
+        margin-left: 3rem; }
+        .footer .social-media--sub .soma-1-img {
+          margin: 1rem 0 0 1.1rem; }
+        .footer .social-media--sub .soma-2-img {
+          margin: 0.5rem 0 0 1.1rem; }
+        .footer .social-media--sub .soma-3-img {
+          margin: 1.1rem 0 0 .6rem; }
+        .footer .social-media--sub .soma-4-img {
+          margin: 0.5rem 0 0 .4rem; }
+  .footer .about {
+    width: 33.33%;
+    height: 100%;
+    float: left; }
+    .footer .about-h1 {
+      font-size: 3rem;
+      color: #8FA898;
+      margin-top: 3rem;
+      margin-left: 12rem;
+      display: block; }
+    .footer .about-para {
+      font-size: 2rem;
+      width: 70%;
+      margin: 2rem 0 0 12rem;
+      color: aliceblue; }
+
+@media (max-width: 1265px) {
+  .header .box5, .header .box6 {
+    display: none; } }
+
+@media (max-width: 1230px) {
+  * {
+    font-size: 42.6%; }
+  .header .heading {
+    width: 50%; }
+    .header .heading-primary {
+      font-size: 40%; }
+    .header .heading-secondory {
+      font-size: 30%; }
+  .section-safety {
+    height: 170vh; }
+    .section-safety-contant {
+      margin-left: 6rem;
+      display: flex;
+      flex-direction: column; }
+      .section-safety-contant .big_box {
+        margin: 0 auto;
+        width: 80%;
+        margin-bottom: 2rem; }
+      .section-safety-contant .sefety_guaranteed_box {
+        margin: 0 auto;
+        width: 80%; }
+  .section-testimoney {
+    height: 100vh;
+    display: flex;
+    flex-direction: column; }
+    .section-testimoney .testimoney_side {
+      background-color: rgba(255, 255, 255, 0);
+      rotate: 90deg;
+      margin-left: 50%; }
+      .section-testimoney .testimoney_side .heading-testimoney {
+        color: #1F2420;
+        font-size: 6rem; }
+    .section-testimoney .testimoney_main {
+      height: 100%;
+      margin: -15rem auto; }
+      .section-testimoney .testimoney_main-heading {
+        margin: 0rem 0 0 8rem; }
+        .section-testimoney .testimoney_main-heading-1 {
+          font-size: 3rem; }
+        .section-testimoney .testimoney_main-heading-2 {
+          margin-left: 0rem;
+          font-size: 2rem; }
+      .section-testimoney .testimoney_main-grid {
+        display: grid;
+        grid-template-columns: auto;
+        margin-left: 4rem; }
+        .section-testimoney .testimoney_main-grid .block {
+          width: 100%; }
+          .section-testimoney .testimoney_main-grid .block-3, .section-testimoney .testimoney_main-grid .block-4 {
+            display: none; }
+  .section-faq {
+    height: 200vh; }
+    .section-faq .faq-contant {
+      width: 56%;
+      margin: 2rem 0 0 7.5%;
+      display: flex;
+      flex-direction: column; }
+      .section-faq .faq-contant-headings {
+        width: 100%; }
+        .section-faq .faq-contant-headings .faq-h1 {
+          margin: 0 0 0 25%; }
+      .section-faq .faq-contant-grid {
+        width: 100%;
+        margin-top: 4rem; }
+  .footer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse; }
+    .footer .footer_item {
+      width: 100%; }
+    .footer .contacts-item--3 .mail-para {
+      position: absolute;
+      left: 0rem; } }
+
+@media (max-width: 515px) {
+  * {
+    font-size: 42.6%; }
+  .header .heading {
+    width: 50%; }
+    .header .heading-primary {
+      font-size: 40%; }
+    .header .heading-secondory {
+      font-size: 30%; }
+  .section-safety {
+    height: 300vh; }
+    .section-safety-contant {
+      margin-left: 6rem;
+      display: flex;
+      flex-direction: column; }
+      .section-safety-contant .big_box {
+        margin: 0 auto;
+        width: 80%;
+        margin-bottom: 2rem; }
+      .section-safety-contant .sefety_guaranteed_box {
+        margin: 0 auto;
+        width: 80%; }
+  .section-testimoney {
+    height: 400vh;
+    display: flex;
+    flex-direction: column; }
+    .section-testimoney .testimoney_side {
+      background-color: rgba(255, 255, 255, 0);
+      rotate: 90deg;
+      margin-left: 50%; }
+      .section-testimoney .testimoney_side .heading-testimoney {
+        color: #1F2420;
+        font-size: 6rem; }
+    .section-testimoney .testimoney_main {
+      height: 100%;
+      margin: -15rem auto; }
+      .section-testimoney .testimoney_main-heading {
+        margin: 0rem 0 0 8rem; }
+        .section-testimoney .testimoney_main-heading-1 {
+          font-size: 3rem; }
+        .section-testimoney .testimoney_main-heading-2 {
+          margin-left: 0rem;
+          font-size: 2rem; }
+      .section-testimoney .testimoney_main-grid {
+        display: grid;
+        grid-template-columns: auto;
+        margin-left: 4rem; }
+        .section-testimoney .testimoney_main-grid .block {
+          width: 100%; }
+          .section-testimoney .testimoney_main-grid .block-3, .section-testimoney .testimoney_main-grid .block-4 {
+            display: none; }
+  .section-faq {
+    height: 500vh; }
+    .section-faq .faq-contant {
+      width: 56%;
+      margin: 2rem 0 0 7.5%;
+      display: flex;
+      flex-direction: column; }
+      .section-faq .faq-contant-headings {
+        width: 100%; }
+        .section-faq .faq-contant-headings .faq-h1 {
+          margin: 0 0 0 25%; }
+      .section-faq .faq-contant-grid {
+        width: 100%;
+        margin-top: 4rem; }
+  .footer {
+    height: 150vh;
+    display: flex;
+    flex-direction: column-reverse; }
+    .footer .footer_item {
+      width: 100%; }
+    .footer .contacts-item--3 .mail-para {
+      position: absolute;
+      left: 0rem; } }
